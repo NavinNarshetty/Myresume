@@ -31,16 +31,16 @@ ALLOWED_HOSTS = ['*']
 
 EMAIL_BACKEND ='django.core.mail.backends.console.EmailBackend'
 # EMAIL_HOST = 'smtp.gmail.com'
-# EMAIL_HOST_USER = 'navindjango@gmail.com'
-# EMAIL_HOST_PASSWORD = 'navin123'
+# EMAIL_HOST_USER = ''
+# EMAIL_HOST_PASSWORD = ''
 # EMAIL_USE_TLS = True 
 # EMAIL_PORT = 2525
 # DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 EMAIL_HOST='smtp.sendgrid.com'
-EMAIL_HOST_USER='navindjango19'
-EMAIL_MAIN='jobfornavin@yourwebsite.com'
-EMAIL_HOST_PASSWORD='navin1913'
+EMAIL_HOST_USER=''
+EMAIL_MAIN=''
+EMAIL_HOST_PASSWORD=''
 EMAIL_PORT=2525
 EMAIL_USE_TLS=True
 
@@ -97,8 +97,8 @@ WSGI_APPLICATION = 'src.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
 
-AWS_ACCESS_KEY_ID = "AKIAI6NID6PCDE3NNQBA"
-AWS_SECRET_ACCESS_KEY = "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"
+AWS_ACCESS_KEY_ID = ""
+AWS_SECRET_ACCESS_KEY = ""
 
 if 'RDS_DB_NAME' in os.environ:
     DATABASES = {
